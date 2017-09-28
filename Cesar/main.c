@@ -120,7 +120,7 @@ void Descifrar()
         for(j=0;j<strlen(alfabeto);j++){
             if(mensaje[i]==alfabeto[j]){
                 if(mensaje[i]==alfabeto[24]){
-                    criptograma[i]=alfabeto[0];
+                    criptograma[i]='a';
                 }
                 else if(mensaje[i]==alfabeto[25]){
                     criptograma[i]=alfabeto[1];
